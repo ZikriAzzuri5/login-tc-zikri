@@ -24,7 +24,7 @@ Pertama, clone repositori ini ke mesin lokal Anda:
 
 git clone https://github.com/zikriazzuri5/login-tc-zikri.git
 
-**cd QA2**
+**cd login-tc-zikri**
 
 ## 2. Install Dependensi
 
