@@ -26,13 +26,14 @@ Pertama, clone repositori ini ke mesin lokal Anda:
 git clone https://github.com/zikriazzuri5/login-tc-zikri.git
 cd QA2
 
-**### 2. install dependency**
+### 2. Install Dependensi
 
 kedua, install dependensi di lokal anda:
 
 npm install
 
-**### 3. menjalankan tes secara manual**
+
+### 3. Menjalankan Tes Secara Manual
 
 Untuk menjalankan semua tes tanpa antarmuka grafis (misalnya di CI/CD), Anda bisa menggunakan perintah:
 
