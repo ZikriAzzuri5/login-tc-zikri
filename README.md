@@ -18,23 +18,22 @@ Sebelum memulai, pastikan Anda sudah menginstal:
 
 ## Cara Menjalankan Proyek
 
-### 1. Clone Repositori Ini
+## 1. Clone Repositori Ini
 
 Pertama, clone repositori ini ke mesin lokal Anda:
 
-```bash
 git clone https://github.com/zikriazzuri5/login-tc-zikri.git
-cd QA2
 
-### 2. Install Dependensi
+**cd QA2**
+
+## 2. Install Dependensi
 
 kedua, install dependensi di lokal anda:
 
-npm install
+**npm install**
 
-
-### 3. Menjalankan Tes Secara Manual
+## 3. Menjalankan Tes Secara Manual
 
 Untuk menjalankan semua tes tanpa antarmuka grafis (misalnya di CI/CD), Anda bisa menggunakan perintah:
 
-npm run cy:open
+**npm run cy:open**
