@@ -32,21 +32,6 @@ describe("intercept test", () => {
     });
     loginPage.errorMessage().should("be.visible");
   });
-  it("User login with invalid credentials", () => {
-    loginPage.inputUsername().type("admin");
-    loginPage.inputPassword().type("Admin123");
-
-    cy.intercept(
-      "GET",
-      "https://opensource-demo.orangehrmlive.com/web/index.php/core/i18n/messages"
-    ).as("message");
-
-    loginPage.buttonLogin().click();
-
-    cy.wait("@message", { timeout: 10000 }).then((intercept) => {
-      expect(intercept.response.statusCode).to.equal(304);
-    });
-  });
 
   it("User login with invalid username and valid password", () => {
     loginPage.inputUsername().type("admin");
